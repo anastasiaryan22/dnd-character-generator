@@ -27,7 +27,7 @@ class TheLabApp(App):
         return layout
 
     def submit(self, obj):
-        user_input = self.spell_variable
+        user_input = self.spell.text
         #making input into url ready thingy
 
         making_string = ''.join(str(x) for x in user_input)
